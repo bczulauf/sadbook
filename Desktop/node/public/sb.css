@@ -1,0 +1,278 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: helvetica;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    color: #19A9E5;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+.clear{
+  clear: both;
+}
+
+input, select {
+    vertical-align:middle;
+    font-size: 16px;
+    text-indent: 10px;
+    box-shadow: none;
+    border: none;
+    color: #999;
+    outline: none;
+}
+
+/* css main */
+
+.normWidth{
+  width: 800px;
+  margin: 0 auto;
+}
+
+#navBar{
+  background-color: #2F353E;
+  position: fixed;
+  height: 55px;
+  top: 0px;
+  width: 100%;
+}
+
+#logo{
+  position: fixed;
+  top: 11px;
+}
+
+#signIn{
+  position: fixed;
+  top: 14px;
+  background-color: #8fcf21;
+  width: 70px;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 18px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  margin-left: 732px;
+  cursor: pointer;
+}
+
+#topBar{
+  background-color: #72D0EB;
+  height: 80px;
+  position: fixed;
+  top: 55px;
+  width: 100%;
+}
+
+#userInput{
+  position: fixed;
+  width: 792px;
+  border: 4px solid #59C1E4;
+  border-radius: 2px;
+  top: 69px;
+  height: 42px;
+  font-size: 18px;
+  text-indent: 15px;
+}
+
+#feedHeader{
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0px;
+  margin-bottom: 15px;
+    margin-top: 180px;
+}
+
+#feedTitle{
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  line-height: 45px;
+  float: left;
+  vertical-align: bottom;
+}
+
+#update{
+  float: right;
+  background-color: #EDE8DF;
+  height: 30px;
+  line-height: 30px;
+  width: 75px;
+  font-size: 12px;
+  border-radius: 4px;
+  text-align: right;
+  background-image: url("update.png");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-right: 10px;
+  color: #AEA595;
+}
+
+#filter{
+  background-color: #8fcf21;
+  border-radius: 18px;
+  text-align: center;
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  font-size: 13px;
+  width:60px;
+  margin-bottom: 40px;
+}
+
+#feed{
+  line-height: 160%;
+}
+
+/* signin box */
+
+.signBox{
+  z-index: 10;
+  display: none;
+}
+
+#signBox{
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 1px 5px rgba(0,0,0,.6);
+  position: fixed;
+  margin-left: 450px;
+  padding: 0px 40px 40px 40px;
+  top: 50px;
+}
+
+#close{
+  text-align: right;
+  padding: 20px 0px;
+}
+
+.signHeader{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.signInput{
+  width: 280px;
+  height: 35px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+#email{
+  
+}
+
+.submit{
+  background-color: #8fcf21;
+  border-radius: 18px;
+  color: #fff;
+  width: 80px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.signLink{
+  font-size: 13px;
+  margin-top: 20px;
+  color: #19A9E5;
+  cursor: pointer;
+}
+
+.up{
+  display: none;
+}
+
+
+
